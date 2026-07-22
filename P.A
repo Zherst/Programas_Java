@@ -1,0 +1,11 @@
+termo = int(input('Quanto termos na sequencia?'))
+while termo <= 0:
+    print('Quantidade inválida')
+    termo = int(input('Quanto termos na sequencia?'))
+soma = 0
+posiçao =1
+while posiçao <= termo:
+    print(posiçao)
+    soma = soma + posiçao
+    posiçao = posiçao + 1
+print(f'S = {soma}')
